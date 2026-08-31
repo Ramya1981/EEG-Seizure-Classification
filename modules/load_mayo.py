@@ -12,7 +12,7 @@ def load_mayo_dataset(max_files=2):
     Output: X (n_windows, n_channels, window_size), y (n_windows,)
     """
     X, y = [], []
-    mayo_dir = r"C:\Users\Ramya Sundaram\Downloads\archive\DatasetMayo"
+    mayo_dir = os.getenv("MAYO_DATA_DIR", "data/mayo")
     if not os.path.exists(mayo_dir):
         print(f"[ERROR] Mayo directory not found: {mayo_dir}")
         return np.array([]), np.array([])
