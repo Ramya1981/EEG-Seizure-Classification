@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# EEG datasets and generated data
+*.npz
+*.pkl
+*.edf
+data/
+
+# Local IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
