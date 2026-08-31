@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+imbalanced-learn
+mne
+h5py
+matplotlib
