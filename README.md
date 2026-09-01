@@ -1,4 +1,4 @@
-# EEG Seizure Classification
+# EEG Signal processing
 
 A research-oriented Python project for preparing and analysing EEG data for epileptic seizure detection and classification. The repository currently focuses on EEG exploratory analysis, preprocessing, window generation, seizure/preictal labelling, multi-dataset loading, feature extraction, class balancing, and preparation of data for downstream machine-learning or deep-learning models.
 
